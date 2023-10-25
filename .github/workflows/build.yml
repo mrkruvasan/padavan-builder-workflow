@@ -86,7 +86,8 @@ jobs:
                  wget \
                  xxd \
                  zlib1g-dev \
-                 zstd
+                 zstd \
+                 libattr-devel
 
     - name: Update locales
       run: |

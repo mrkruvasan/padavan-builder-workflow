@@ -86,7 +86,8 @@ jobs:
                  wget \
                  xxd \
                  zlib1g-dev \
-                 zstd
+                 zstd \
+                 libcap-ng-dev
 
     - name: Update locales
       run: |

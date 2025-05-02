@@ -1,4 +1,4 @@
-name: Build firmware
+name: Build firmware repo <hadzhioglu>
 
 on:
   workflow_dispatch:
@@ -75,6 +75,7 @@ jobs:
         path: |
           ${{ env.FW_FILE_NAME }}
           build.config
+    
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
